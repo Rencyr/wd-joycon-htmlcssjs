@@ -44,3 +44,8 @@ button{
 .button6{
     margin-left: 36px;
 }
+
+footer{
+    margin-right: -150px;
+    text-align: right;
+}

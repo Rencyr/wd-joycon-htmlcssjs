@@ -2,20 +2,21 @@
 <html lang="en">
 <head>
     <link href="style.css" rel="stylesheet">
+    <script src="script.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JoyCon</title>
 </head>
 <body>
-    <h1 id="text">Hello</h1>
-    <div class="container">
-        <button class="button1" id="btn^" onclick="texting()">[^]</button></br>
-        <button class="button2" id="btn<"  onclick="texting()">[<]</button>
-        <button class="button3" id="btn>"  onclick="texting()">[>]</button> 
-        <button class="button5" id="buttonab" onclick="texting()">[B]</button>
-        <button class="button6" id="buttonab" onclick="texting()">[A]</button></br>
-        <button class="button4" id="btnv" onclick="texting()">[v]</button></br>
+    <p id="text">Click Any Button</p>
+    <div class="container" id="container">
+        <button class="button1" id="btn^" onclick="textingup()">[^]</button></br>
+        <button class="button2" id="btn<"  onclick="textingleft()">[<]</button>
+        <button class="button3" id="btn>"  onclick="textingright()">[>]</button> 
+        <button class="button5" id="buttonab" onclick="textingb()">[B]</button>
+        <button class="button6" id="buttonab" onclick="textinga()">[A]</button></br>
+        <button class="button4" id="btnv" onclick="textingdown()">[v]</button></br>
     </div>
 
 
